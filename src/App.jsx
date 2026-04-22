@@ -11,6 +11,7 @@ import SIgnUp from './components/signup/SIgnUp'
 import Home from './components/Home'
 import Admin from './components/admin/Admin'
 import Footer from './components/footer/Footer'
+import HeaderTest from './components/HeaderTest'
 
 function App() {
   const [user, setUser] = useState(null)
@@ -27,7 +28,6 @@ function App() {
   return (
     <div className="app">
   <Header user={user} setUser={setUser} />
-
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/about' element={<About />} />

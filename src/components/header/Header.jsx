@@ -28,12 +28,12 @@ console.log(username);
   return (
     <header className="site-header">
       <div className="header-inner">
-        <div className="header-brand">
+        <div className="header-brand ">
           <h1>Quick Stay</h1>
         </div>
 
         <nav className="header-nav" aria-label="Main navigation">
-          <ul className="nav-list">
+          <ul className="nav-list ">
             <li>
               <Link to="/">Rooms</Link>
             </li>
@@ -43,7 +43,7 @@ console.log(username);
           </ul>
         </nav>
 
-        <div className="auth-actions">
+        <div className="auth-actions ">
           {user ? (
             <>
               <span className="auth-user">Hello, {username}</span>
@@ -53,7 +53,7 @@ console.log(username);
             </>
           ) : (
             <>
-              <Link className="button button-secondary" to="/login">
+              <Link className=" button button-secondary" to="/login">
                 Login
               </Link>
               <Link className="button button-primary" to="/signup">
