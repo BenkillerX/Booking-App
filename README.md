@@ -43,7 +43,7 @@ A modern, full-featured room booking application built with React and Firebase. 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone <https://github.com/BenkillerX/Booking-App>
 cd booking-app
 ```
 
@@ -69,7 +69,7 @@ VITE_FIREBASE_APP_ID=your_app_id
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173` (Vite default port).
+The application will be available at `booking-app-ben-dev27.vercel.app` (Vite default port).
 
 ## Available Scripts
 
