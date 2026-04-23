@@ -100,7 +100,9 @@
 
 .button-secondary {
   background: rgba(15, 23, 42, 0.06);
-  color: #111827;
+  /* color: #111827; */
+  color: red;
+  margin-right: 1rem;
   border: 1px solid rgba(15, 23, 42, 0.12);
 }
 
@@ -263,6 +265,7 @@
 .mobile-logout {
   width: 100%;
   margin-bottom: 1rem;
+
 }
 
 /* Mobile Overlay */
