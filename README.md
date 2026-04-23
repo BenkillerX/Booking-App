@@ -56,12 +56,14 @@ npm install
    - Create a `.env.local` file in the root directory
    - Add your Firebase credentials:
 ```
-VITE_FIREBASE_API_KEY=your_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
-VITE_FIREBASE_PROJECT_ID=your_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-VITE_FIREBASE_APP_ID=your_app_id
+# Firebase Configuration
+VITE_FIREBASE_API_KEY="AIzaSyDQi-WTdrkU2UgcZHhZwT4d3Ga0wRN6lKY";
+VITE_FIREBASE_AUTH_DOMAIN="learning-projects-53457.firebaseapp.com";
+VITE_FIREBASE_PROJECT_ID= "learning-projects-53457";
+VITE_FIREBASE_STORAGE_BUCKET="learning-projects-53457.firebasestorage.app";
+VITE_FIREBASE_MESSAGING_SENDER_ID="966310347133";
+VITE_FIREBASE_APP_ID="1:966310347133:web:dc6d38ac8b492e0a134c14";
+
 ```
 
 4. Start the development server:

@@ -42,7 +42,9 @@ console.log(username);
           <div className="header-brand">
             <h1>Quick Stay</h1>
           </div>
-
+          <div className='search-section'>
+      <input type="text" placeholder='Search for a room...'/>
+          </div>
           <nav className="header-nav" aria-label="Main navigation">
             <ul className="nav-list">
               <li>

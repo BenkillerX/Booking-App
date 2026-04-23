@@ -4,7 +4,7 @@ import {getDocs, collection} from 'firebase/firestore'
 import { db } from '../config/firebase';
 import { Link } from 'react-router-dom';
 
-const Home = () => {
+const Rooms = () => {
   const roomsCollectionsRef = collection(db, "rooms")
   const [rooms, setRooms] = useState([])
   const [loading, setLoading] = useState(false)
@@ -97,4 +97,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Rooms

@@ -8,10 +8,9 @@ import About from './components/about/About'
 import Bookings from './components/bookings/Bookings'
 import Login from './components/login/Login'
 import SIgnUp from './components/signup/SIgnUp'
-import Home from './components/Home'
+import Rooms from './components/Rooms'
 import Admin from './components/admin/Admin'
 import Footer from './components/footer/Footer'
-import HeaderTest from './components/HeaderTest'
 
 function App() {
   const [user, setUser] = useState(null)
@@ -29,7 +28,7 @@ function App() {
     <div className="app">
   <Header user={user} setUser={setUser} />
     <Routes>
-      <Route path='/' element={<Home />} />
+      <Route path='/' element={<Rooms />} />
       <Route path='/about' element={<About />} />
       <Route path='/bookings/:roomId?' element={<Bookings />} />
       <Route path='/login' element={<Login />} />
